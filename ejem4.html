@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP.3</title>
-</head>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TP.4</title>
+    </head>
     <body>
         <h1>Formulario de Registro</h1>
         <Form>
@@ -18,15 +18,21 @@
                 <input type="radio" name="sex" value="mujer"> Mujer
                 <input type="radio" name="sex" value="otro"> Otro><br><br>   
             Correo: <input type="text"><br><br>
-
+            <select name="poblacion" id="poblacion">
+                <option value="alicante">Alicante</option>
+                <option value="salta">Salta</option>
+                <option value="bsas">Bs.As</option>
+            </select><br><br>
+            Descripción: 
+                <textarea name="comentarios" id="coment" cols="60" rows="8"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptates sed soluta veritatis quas enim tenetur pariatur dicta dolore doloribus nobis harum autem qui dolorum velit, unde fugit exercitationem porro?</textarea>
+            <br><br>
             <input type="checkbox" name="chex1" value="ofertas"> Deseo recibir información sobre novedades y ofertas <br><br>
             <input type="checkbox" name="chex2" id="terminos"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos <br><br>
             <input type="submit" value="Enviar"> <br><br>
-        </Form>
     </body>
     <footer>
         <input type="button" value="ve a CV" onclick="location.href='ej1.html'"> <br><br>
         <input type="button" value="ve a Internet" onclick="location.href='ejem2.html'"> <br><br>
-        <input type="button" value="ve a formulario 2" onclick="location.href='ejem4.html'"> <br><br>
+        <input type="button" value="ve a formulario 1" onclick="location.href='ejem3.html'"> <br><br>
     </footer>
 </html>
